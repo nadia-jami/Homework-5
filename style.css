@@ -1,0 +1,199 @@
+/* ------------------ RESET ------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Custom Styles */
+body{
+    box-sizing: border-box;
+	background-color: rgb(68, 67, 67);
+	font-family:Arial, Helvetica, sans-serif;
+	color: white;
+	line-height: 20px;
+	
+}
+header{
+    width: 70%;
+    margin: 21px auto 10px;
+}
+header h1{
+	font-size: 37px;
+	color: white;
+	display: inline-block;
+}
+nav{
+	
+	float: right;
+	margin-top: 20px;
+}
+nav ul li {
+	display: inline-block;
+	padding: 7px 30px ;
+	border-radius: 15px;
+	margin-left: 5px;
+	
+	
+	
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+#orange{
+	background-color: chocolate;
+}
+#green{
+	background-color: cadetblue;
+}
+#blue{
+	background-color: rgb(67, 67, 243);
+}
+#purple{
+	background-color: blueviolet;
+}
+
+main{
+    width: 70%;
+    margin: 35px auto;
+	background-color: chocolate;
+	border-radius: 10px;
+
+}
+.up{
+	padding: 20px;
+
+}
+.up .image{
+	width: 30%;
+	display: inline-block;
+	background-image: url("../images/art-profile.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+	height: 60vh;
+	border-radius: 10px;
+}
+
+.para{
+	width: 67%;
+	display: inline-block;
+	padding-left: 10px;
+}
+h2{
+	font-size: 25px
+}
+
+.para p{
+	margin-top: 10px;
+}
+hr{
+	width: 95%;
+	margin: 10px auto;
+	color: rgba(255, 255, 255, 0.377);
+	
+}
+.down{
+	padding: 20px;
+}
+.join{
+	background-color: rgba(173, 87, 25, 0.863);
+	padding: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	border-radius: 10px;
+	height: 40vh;
+	
+}
+.dream{
+	width: 62%;
+	display: inline-block;
+	background-color: rgba(173, 87, 25, 0.863);
+	padding: 20px;
+	border-radius: 10px;
+	margin-left: 10px;height: 40vh;
+
+}
+
+.join h3 , .dream h3{
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.join p{
+	margin-bottom: 20px;
+}
+.join a{
+	color: white;
+	font-size: 15px;
+	
+}
+.border{
+	border-right: 1px solid gray;
+	width: 30%;
+	float: left;
+	padding-right: 15px;
+}
+.links{
+	width: 20%;
+	display: inline-block;
+}
+.links a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+.para-down{
+	width: 68%;
+	display: inline-block;
+}
+.parts{
+	margin-bottom: 20px;
+}
+
+footer{
+	text-align: center;
+	color: gray;
+	padding-bottom: 30px;
+}
